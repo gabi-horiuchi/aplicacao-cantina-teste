@@ -11,6 +11,7 @@ const db = new sqlite3.Database('./cantina.db', (err) => {
     console.log('Conectado ao banco de dados SQLite3.');
   }
 });
+// oi
 
 // Criação da tabela de usuários, se não existir
 db.run(`CREATE TABLE IF NOT EXISTS usuarios (
